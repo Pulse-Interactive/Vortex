@@ -6,4 +6,6 @@ add_executable(${Vortex}
     Main.cpp
     Engine/Client/cl_main.cpp
     Engine/Server/sv_main.cpp
+    Engine/Client/Phys/Phys_main.cpp
+    Engine/Server/Entity/vbase.cpp
 )
