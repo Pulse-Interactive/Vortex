@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(Vortex)
+
+add_executable(${Vortex}
+    Main.cpp
+    Engine/Client/cl_main.cpp
+    Engine/Server/sv_main.cpp
+)
